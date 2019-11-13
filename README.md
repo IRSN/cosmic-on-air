@@ -10,6 +10,6 @@ Design code is coming from https://html5up.net/photon (published under Creative 
 Logo is protected : Sylvain Cnudde / LESIA OBSPM
 
 Photo: 
-  Solar flare photo is from NASA (https://www.nasa.gov/multimedia/imagegallery/image_feature_1650.html)
-  Plane with sun is from pixabay.com - Chrisjmit (https://pixabay.com/fr/photos/plan-coucher-de-soleil-avion-voyage-1000996/)
-  Others photos are free for use
+- Solar flare photo is from NASA (https://www.nasa.gov/multimedia/imagegallery/image_feature_1650.html)
+- Plane with sun is from pixabay.com - Chrisjmit (https://pixabay.com/fr/photos/plan-coucher-de-soleil-avion-voyage-1000996/)
+- Others photos are free for use
