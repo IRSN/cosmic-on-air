@@ -2394,6 +2394,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			/* Exception for images in section two */
+			#two .image.fit img {
+				width: 350px;
+			}
+
 /* List */
 
 	ol {
