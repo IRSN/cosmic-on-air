@@ -1,0 +1,10 @@
+/*
+    Design for YouTube Channel button
+*/
+
+.youtube-channel-button{
+    border-radius: 5px;
+    background-color: #E62117;
+    font-weight: bold;
+    padding: 8px;
+}
