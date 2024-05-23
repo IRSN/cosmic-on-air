@@ -2710,6 +2710,7 @@ input, select, textarea {
 		color: #555 !important;
 		cursor: pointer;
 		display: inline-block;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.9em;
 		font-weight: 400;
 		height: 2.75em;
