@@ -1,0 +1,74 @@
+/*
+    CSS design for specific elements on the website
+*/
+
+/* YouTube Channel button */
+.youtube-channel-button {
+    background-color: #E62117;
+    border-radius: 5px;
+    color:white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    padding: 8px;
+    width: fit-content;
+
+    /* Animation part : returning to normal scale */
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+/* For growing when the mouse is on the button */
+.youtube-channel-button:hover {
+    transform: scale(1.1);
+}
+
+/* Text part */
+.youtube-channel-button p {
+    margin: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+/* Store Selector menu */
+#store-selector {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    opacity: 1;
+    transform: translateY(10px);
+    transition: opacity 0.5s ease, transform 0.5s ease; 
+
+}
+
+/* Store Selector menu when hidden */
+#store-selector.hide {
+    display: none;
+    opacity: 0;
+    transform: translateY(-20px); 
+    
+}
+
+/* Store Selector menu children */
+#store-selector > * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-top: 1px solid #555;
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    border-bottom: none;
+    color: #555;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 1em;
+}
+
+
+
+
+/* Store Selector menu animation */

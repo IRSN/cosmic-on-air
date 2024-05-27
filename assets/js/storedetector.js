@@ -14,13 +14,16 @@ function store_detector(element) {
         window.location.href = "https://play.google.com/store/apps/details?id=com.icohup.riumapp&pcampaignid=web_share";
     }
 
-    // Windows
-    else if (navigator.userAgent.indexOf("Windows") != -1) {
-        window.location.href = "https://apps.microsoft.com/detail/RiumApp/9n0ddtw8jvvp?mode=direct";
-    }
-
-    // // Other cases
-    // else {
-        
+    // TODO : To reactivate when animations are over
+    // // Windows
+    // else if (navigator.userAgent.indexOf("Windows") != -1) {
+    //     window.location.href = "https://apps.microsoft.com/detail/RiumApp/9n0ddtw8jvvp?mode=direct";
     // }
+
+    // Other cases
+    else {
+        let store_selector = document.getElementById("store-selector");
+        store_selector.classList.toggle("hide"); // toggle adds the class "hide" if it's not set already,
+                                                 // and removes this same class if it's set
+    }
 }
